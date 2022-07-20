@@ -143,17 +143,22 @@
         color: rgb(201, 197, 197);
         
     }
-   .media-icon {
-       color: white;
-       padding: 5px;
-       font-size: 20px;
-   }
+    .social-media{
+        display: flex;
+        justify-content: center;
+    }
+    .media-icon {
+        color: white;
+        padding: 5px;
+        font-size: 20px;
 
-   .media-icon:hover {
-       color: lightsalmon;
-       padding: 5px;
-       font-size: 25px;
-   }
+    }
+
+    .media-icon:hover {
+        color: lightsalmon;
+        padding: 5px;
+        font-size: 25px;
+    }
 
 }
 
@@ -263,18 +268,26 @@
         display: block;
         text-align: center;
         border-radius: 20px;
-        margin-left: -20px;
+        /* margin-left: -20px; */
 
     }
 
-    .sidebar-menu li {
-      margin: 10px 100px;
-      background-color: rgb(228, 234, 234);
-      border-radius: 10px;
+    .sidebar-menu li a{
+        font-size: 15px;
+        font-weight: 400; 
+        padding: 10px 20px;  
+    }
 
+    .sidebar-menu ul {
+      display: flex;
+      border-radius: 10px;
+      list-style: none;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      padding: 5px;
 
   }
-
 
     .view-button {
         display: block;
