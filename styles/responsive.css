@@ -181,6 +181,8 @@
 
     .half-width-info {
         width: 40%;
+        align-items: center;
+        
     }
 
     .half-width-picture {
@@ -194,7 +196,7 @@
     }
 
     .banner-title {
-        font-size: 2em;
+        font-size: 25px;
     }
 
     .banner-details p {
