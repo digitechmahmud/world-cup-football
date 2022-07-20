@@ -23,7 +23,7 @@ body {
 }
 .banner{
     width: 80vw;
-    height: 40vw;
+    /* height: 40vw; */
     display: flex;
     background-color: #161616;
     justify-content: center;
@@ -31,6 +31,7 @@ body {
     border-radius: 20px;
     padding-left: 40px;
     box-shadow: 8px 8px 16px lightgray;
+    align-items: center;
 
 }
 .half-width-info{
@@ -112,7 +113,7 @@ body {
     
       
 }
-.sidebar-menu li>a{
+.sidebar-menu li a{
     display: block;
     padding: 10px 30px;
     color: rgb(21, 19, 19);
