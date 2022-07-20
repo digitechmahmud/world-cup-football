@@ -48,7 +48,10 @@ body {
 .banner-title{
     font-size: 3.5em;
 }
-.banner-details p {
+.mobile-view {
+    display: none;
+}
+.other-view {
     font-size: 0.8em;
     font-weight: 400;
     padding-bottom: 20px;
@@ -197,7 +200,7 @@ body {
     background-color: #161616;
 }
 .footer-title{
-    font-size: 3em;
+    font-size: 2em;
     color: white;
     text-align: center;
 }
@@ -237,18 +240,19 @@ body {
     display: none;
 }
 .social-media{
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
   padding: 10px;
   text-align: center;
+ 
 
 }
-.facebook-icon{
+.media-icon{
     color: white;
     padding: 10px;
     font-size: 30px;
 }
-.facebook-icon:hover{
+.media-icon:hover{
     color: lightsalmon;
     padding: 10px;
     font-size: 35px;
