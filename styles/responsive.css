@@ -6,8 +6,12 @@
 ----------------------------------------------------*/
 @media only screen and (max-width: 576px) {
 
+    
+
     .top-banner {
             margin-top: 30px;
+            
+    
     }
     .banner {
         display: grid;
@@ -288,6 +292,10 @@
       padding: 5px;
 
   }
+
+    .view-button a{
+        box-shadow: 10px 10px 20px lightgray;
+    }
 
     .view-button {
         display: block;
