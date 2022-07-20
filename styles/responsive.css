@@ -1,4 +1,9 @@
 /* Media Query */
+
+
+/* --------------------------------------------------
+                ### Mobile Device Start ### 
+----------------------------------------------------*/
 @media only screen and (max-width: 576px) {
 
     .top-banner {
@@ -138,8 +143,27 @@
         color: rgb(201, 197, 197);
         
     }
+   .media-icon {
+       color: white;
+       padding: 5px;
+       font-size: 20px;
+   }
+
+   .media-icon:hover {
+       color: lightsalmon;
+       padding: 5px;
+       font-size: 25px;
+   }
 
 }
+
+/* --------------------------------------------------
+                ### Mobile Device End ### 
+----------------------------------------------------*/
+
+/* --------------------------------------------------
+                ### Tablet Device Start ###
+----------------------------------------------------*/
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .banner {
@@ -251,22 +275,50 @@
 
 
     .view-button {
-        display: flex;
-        background-color: rgb(5, 27, 36);
-        border-radius: 25px;
-        padding: 10px 20px;
+        display: block;
+        background-color: tomato;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
         font-size: 20px;
         width: 150px;
         height: 50px;
-        justify-items: center;
         text-decoration: none;
+        text-align: center;
+        padding-top: 15px;
         margin-top: 100px;
+        box-shadow: 4px 4px 16px lightgray;
+    }
+    .view-button:hover, .view-button:focus {
+        display: block;
+        background-color: rgb(34, 33, 33);
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 15px;
+        margin-top: 100px;
+        transition: all 0.5s ease-out;
+        
     }
 
 
 
 
 }
+
+
+/* --------------------------------------------------
+                ### Tablet Device End ###
+----------------------------------------------------*/
+
+/* --------------------------------------------------
+                ### Desktop Device Start ###
+----------------------------------------------------*/
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .banner {
@@ -360,3 +412,7 @@
     
         }
 }
+
+/* --------------------------------------------------
+                ### Desktop Device End ###
+----------------------------------------------------*/
